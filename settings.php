@@ -46,7 +46,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://carabao-batu.crbillingsystem.com/apk/app-cashier.apk" target="_blank" class="item">
+                <a href="<?php echo $baseurl; ?>/apk/aplikasi.apk" target="_blank" class="item">
                     <div class="in">
                         <div>Install Cashier APK</div>
                     </div>
