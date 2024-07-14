@@ -1,0 +1,79 @@
+
+.stepper{
+  width: 24px !important;
+  height: 24px !important;
+  font-size: 14px !important;
+  background: #3e3e3e !important;
+}
+
+
+.stepper-done{
+  width: 24px !important;
+  height: 24px !important;
+  font-size: 14px !important;
+  background: #024F17;
+}
+
+
+
+.transfer-verification .from-to-block .arrow{
+	left: 30px !important;;
+    right: 55px !important;;
+    top: 13px !important;;
+}
+
+
+#select4b[disabled] {
+    color: #999; /* warna teks */
+    background-color: #e0e0e0; /* warna latar belakang */
+}
+
+
+.select2-container .select2-selection--single{
+height: 39px !important;
+padding-top: 5px !important;
+border-radius: 10px !important;
+padding-left: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 5px !important;
+  right: 2px !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border-radius: 7px !important;
+}
+
+.select2-search--dropdown .select2-search__field {
+  border-radius: 7px !important;
+}
+
+.select2-container--default .select2-results>.select2-results__options{
+  color: black !important;
+}
+
+.color-b{
+    color: black !important;
+}
+
+.color-g{
+    color: #958d9e !important;
+}
+
+
+#reportrange{
+    border-radius: 7px !important;
+}
+
+.wallet-card .balance .total{
+    font-size: 24px !important;
+}
+
+.transactions .item .right .price{
+    text-align: right !important;
+}
+
+.transactions .item .right{
+    text-align: right !important;
+}
