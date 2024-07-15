@@ -18,7 +18,7 @@
         <div class="section mt-3 text-center">
             <div class="avatar-section">
                 <a href="#">
-                    <img src="<?php echo $baseurl; ?>public/assets/img/logo-profil.jpg" alt="avatar" class="imaged w100 rounded">
+                    <img src="<?php echo $baseurl; ?>public/assets/img/logo-profile.jpg" alt="avatar" class="imaged w100 rounded">
                 </a>
             </div>
         </div>

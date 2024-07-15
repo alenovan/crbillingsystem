@@ -46,7 +46,7 @@ include "secret/database.php";
     <!-- App Capsule -->
     <div id="appCapsule">
         <div class="section mb-5 text-center">
-            <img src="<?php echo $baseurl; ?>public/assets/img/logo-profil.jpg" alt="logo" class="imaged w120 mb-2 rounded">
+            <img src="<?php echo $baseurl; ?>public/assets/img/logo-profile.jpg" alt="logo" class="imaged w120 mb-2 rounded">
             <h4 class="mb-5 mt-2">Fill the form to log in <br />System Billiard Billing</h4>
         </div>
 

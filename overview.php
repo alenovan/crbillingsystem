@@ -54,7 +54,7 @@
         </div>
         <div class="right">
             <a href="?page=setting" class="headerButton">
-                <img src="public/assets/img/logo-profil.jpg" alt="image" class="imaged w32">
+                <img src="public/assets/img/logo-profile.jpg" alt="image" class="imaged w32">
             </a>
         </div>
     </div>

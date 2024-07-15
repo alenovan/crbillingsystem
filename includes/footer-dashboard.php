@@ -6,7 +6,7 @@
                     <!-- profile box -->
                     <div class="profileBox pt-2 pb-2">
                         <div class="image-wrapper">
-                            <img src="public/assets/img/logo-profil.jpg" alt="image" class="imaged  w36">
+                            <img src="public/assets/img/logo-profile.jpg" alt="image" class="imaged  w36">
                         </div>
                         <div class="in">
                             <strong><?php echo $f_client_name; ?></strong>
