@@ -149,4 +149,27 @@ function calculateTimeDifference2($start, $end) {
 }
 
 
+function calculateTimePrice($start, $end, $price, $formatIDR = false) {
+    // Convert timestamps to DateTime objects
+    $startTime = new DateTime($start);
+    $endTime = new DateTime($end);
+
+    // Calculate the difference
+    $interval = $startTime->diff($endTime);
+
+    // Convert the difference to minutes
+    $minutes = $interval->days * 24 * 60; // Total minutes in days
+    $minutes += $interval->h * 60; // Total minutes in hours
+    $minutes += $interval->i; // Total minutes
+
+    // Multiply by 1000
+    $result = $minutes * $price;
+
+    if ($formatIDR) {
+        $result = 'Rp ' . number_format($result, 0, ',', '.');
+    }
+    return $result;
+}
+
+
 ?>

@@ -13,7 +13,14 @@ $f_client_name = $_SESSION['s_client_name'];
 $f_total_table = $_SESSION['s_total_table'];
 $f_client_id = $_SESSION['s_client_id'];
 
+$queryPrice = mysqli_query($mysqli, "
+    SELECT price from configs_times  where id = 1;
+    ");
+    
+    
+$queryFecthPrice = mysqli_fetch_array($queryPrice);
 
+$priceperminute = $queryFecthPrice["price"];
 ?>
 
 <!doctype html>

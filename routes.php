@@ -37,6 +37,10 @@ switch($pages){
     case "reset-password":
         include "views/profil/reset-password.php";
         break;
+
+    case "setting-price":
+            include "views/profil/setting-price.php";
+            break;
         
     case "process":
         include "process.php";

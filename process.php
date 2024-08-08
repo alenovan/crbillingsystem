@@ -28,4 +28,20 @@ if (isset($_GET['action']) && $_GET['action'] == 'update-password') {
     echo '<script>window.location.href = "dashboard.php?page=setting";</script>';
     }
 }
+
+
+if (isset($_GET['action']) && $_GET['action'] == 'update-price') {
+    echo $_SERVER["REQUEST_METHOD"];
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $price = $_POST['price'];
+
+  
+    // echo $new_password . "<br />";
+    // echo $repeat_new_password . "<br />";
+    
+    $QueryUpdatePassword = mysqli_query($mysqli, "UPDATE configs_times SET price='$price' WHERE id='1'");
+    echo '<script>window.location.href = "dashboard.php?page=setting";</script>';
+    }
+}
+
 ?>

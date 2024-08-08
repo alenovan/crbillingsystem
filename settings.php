@@ -64,6 +64,13 @@
                 </a>
             </li>
             <li>
+                <a href="pages.php?page=setting-price" class="item">
+                    <div class="in">
+                        <div>Price Setting</div>
+                    </div>
+                </a>
+            </li>
+            <li>
                 <div class="item">
                     <div class="in">
                         <div>

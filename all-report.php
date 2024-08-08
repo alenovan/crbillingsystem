@@ -57,6 +57,9 @@ $QueryGenerateReport = mysqli_query($mysqli, "
     
     
 $TotalData = mysqli_num_rows($QueryGenerateReport);
+
+
+
 ?>
     
     <!-- App Header -->
@@ -172,6 +175,7 @@ $TotalData = mysqli_num_rows($QueryGenerateReport);
                                 <th scope="col">Phone</th>
                                 <th scope="col">Table</th>
                                 <th scope="col">Duration</th>
+                                <th scope="col">Est Price</th>
                                 <th scope="col">Type</th>
                                 <th scope="col">Start Time</th>
                                 <th scope="col">End Time</th>
@@ -198,6 +202,14 @@ $TotalData = mysqli_num_rows($QueryGenerateReport);
                                     $end = $DataReport['end_time'];
         
                                     echo calculateTimeDifference($start, $end);
+                                    ?>
+                                </th>
+                                <th>
+                                    <?php
+                                    $start = $DataReport['start_time'];
+                                    $end = $DataReport['end_time'];
+        
+                                    echo calculateTimePrice($start, $end,$priceperminute,true);
                                     ?>
                                 </th>
                                 <th><?php echo $DataReport['type']; ?></th>

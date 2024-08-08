@@ -187,6 +187,18 @@ $DataDetail = mysqli_fetch_array($QueryShowDetail);
                     </strong>
                 </li>
                 <li>
+                    <div class="text-muted">Est Price</div>
+                    <strong>
+                        <?php
+                        // Data yang diberikan
+                        $start = $DataDetail['start_time'];
+                        $end = $DataDetail['end_time'];
+                        
+                        echo calculateTimePrice($start, $end,$priceperminute,true);
+                        ?>
+                    </strong>
+                </li>
+                <li>
                     <div class="text-muted">Cashier</div>
                     <strong><?php echo titleCase($DataDetail['cashier']); ?></strong>
                 </li>
